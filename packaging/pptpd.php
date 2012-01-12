@@ -17,5 +17,6 @@ clearos_load_language('pptpd_plugin');
 // C O N F I G
 ///////////////////////////////////////////////////////////////////////////////
 
-$plugin['name'] = lang('pptpd_plugin_pptp_server');
+$plugin['name'] = lang('pptpd_plugin_pptp_server_user');
 $plugin['description'] = lang('pptpd_plugin_app_description');
+$plugin['enabled'] = TRUE;
