@@ -1,7 +1,7 @@
 
 Name: app-pptpd-plugin
 Epoch: 1
-Version: 1.0.4
+Version: 1.0.10
 Release: 1%{dist}
 Summary: PPTP Server Policies - APIs and install
 License: LGPLv3
@@ -16,7 +16,6 @@ PPTP Server Policies provide access control for the PPTP server app.
 Summary: PPTP Server Policies - APIs and install
 Requires: app-base-core
 Requires: app-accounts-core
-Requires: app-pptpd-core
 
 %description core
 PPTP Server Policies provide access control for the PPTP server app.
