@@ -1,9 +1,9 @@
 
 Name: app-pptpd-plugin
 Epoch: 1
-Version: 1.0.10
+Version: 1.1.0
 Release: 1%{dist}
-Summary: PPTP Server Policies - APIs and install
+Summary: PPTP Server Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Source: app-pptpd-plugin-%{version}.tar.gz
@@ -13,7 +13,7 @@ Buildarch: noarch
 PPTP Server Policies provide access control for the PPTP server app.
 
 %package core
-Summary: PPTP Server Policies - APIs and install
+Summary: PPTP Server Policies - Core
 Requires: app-base-core
 Requires: app-accounts-core
 
