@@ -1,7 +1,7 @@
 
 Name: app-pptpd-plugin
 Epoch: 1
-Version: 1.1.0
+Version: 1.6.5
 Release: 1%{dist}
 Summary: PPTP Server Policies - Core
 License: LGPLv3
@@ -54,9 +54,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/pptpd_plugin/packaging
-%exclude /usr/clearos/apps/pptpd_plugin/tests
 %dir /usr/clearos/apps/pptpd_plugin
 /usr/clearos/apps/pptpd_plugin/deploy
 /usr/clearos/apps/pptpd_plugin/language
-/usr/clearos/apps/pptpd_plugin/libraries
 /var/clearos/accounts/plugins/pptpd.php
