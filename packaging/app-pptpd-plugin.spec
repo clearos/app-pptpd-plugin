@@ -1,7 +1,7 @@
 
 Name: app-pptpd-plugin
 Epoch: 1
-Version: 2.0.1
+Version: 2.0.5
 Release: 1%{dist}
 Summary: PPTP Server Policies - Core
 License: LGPLv3
