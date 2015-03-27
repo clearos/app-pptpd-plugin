@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'pptpd_plugin';
-$app['version'] = '2.0.18';
+$app['version'] = '2.0.21';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -36,4 +36,11 @@ $app['core_file_manifest'] = array(
    'pptpd.php' => array(
         'target' => '/var/clearos/accounts/plugins/pptpd.php'
     ),
+);
+
+$app['delete_dependency'] = array(
+    'app-pptpd-core',
+    'app-pptpd',
+    'app-pptpd-plugin-core',
+    'pptpd',
 );
