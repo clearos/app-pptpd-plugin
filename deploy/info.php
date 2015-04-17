@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////
 
 $app['basename'] = 'pptpd_plugin';
-$app['version'] = '2.0.21';
+$app['version'] = '2.0.24';
 $app['release'] = '1';
 $app['vendor'] = 'ClearFoundation';
 $app['packager'] = 'ClearFoundation';
@@ -38,9 +38,4 @@ $app['core_file_manifest'] = array(
     ),
 );
 
-$app['delete_dependency'] = array(
-    'app-pptpd-core',
-    'app-pptpd',
-    'app-pptpd-plugin-core',
-    'pptpd',
-);
+$app['delete_dependency'] = array();
